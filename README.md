@@ -8,7 +8,7 @@ Admin Dashboard created for **The Odin Project – Intermediate HTML and CSS** c
 
 This project is based on the following dashboard design provided by The Odin Project:
 
-![Admin Dashboard Reference](./assets/dashboard-reference.png)
+![Admin Dashboard Reference](./assets/images/ui/dashboard-reference.png)
 
 The goal is to recreate this layout as accurately as possible while applying best practices in HTML structure and CSS layout.
 
