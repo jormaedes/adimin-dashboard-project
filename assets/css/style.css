@@ -120,7 +120,7 @@ img[src="./assets/images/avatars/avatar.png"]{
 .main-content {
 	grid-column: 2 / 5;
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 3fr 1fr;
 	gap: 20px;
 	background: var(--gray);
 	padding: 30px;;
@@ -170,6 +170,7 @@ img[src="./assets/images/avatars/avatar.png"]{
 .announcements {
 	display: grid;
 	gap: 20px;
+	font-size: 14px;
 }
 
 .announcements-section {
@@ -188,4 +189,57 @@ img[src="./assets/images/avatars/avatar.png"]{
 
 .announcements-content p:first-child {
 	font-weight: 600;
+}
+
+.project-title {
+	font-weight: 600;
+}
+
+.trending {
+	display: grid;
+	font-size: 14px;
+	gap: 20px;
+}
+
+.trending-section {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	background: var(--white);
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.trending-content {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.trending-content img {
+	width: 50px;
+}
+
+img[src="./assets/images/avatars/dmario.png"]
+{
+	background: var(--gray);
+}
+
+img[src="./assets/images/avatars/joana.png"]
+{
+	background: var(--blue);
+}
+
+img[src="./assets/images/avatars/owl.png"]
+{
+	background: var(--yellow);
+}
+
+img[src="./assets/images/avatars/gpt.png"]
+{
+	background: var(--blue);
+}
+
+.profile-trending p {
+	color: var(--black);
 }
